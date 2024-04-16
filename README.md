@@ -1,10 +1,10 @@
 # End-To-End-Spotify-ETL-Pipeline
 
-In this project, I've successfully implemented an ETL pipeline for Spotify data, leveraging the power of Snowflake and AWS services. The process begins with Python, which interfaces with the Spotify API to extract the raw data. This data is then efficiently transferred to an AWS S3 bucket through the utilization of Lambda functions. Following this, another Lambda function takes charge, applying the necessary transformations to the data, subsequently storing the transformed dataset back into an S3 bucket.
+An ETL pipeline for Spotify data was developed. It begins with Python interacting with the Spotify API to get the data. The data is then moved to an AWS S3 bucket using Lambda functions. Another Lambda function transforms the data before putting it back in the S3 bucket.
 
-Now, we're poised to advance to the next pivotal phase - data loading into our robust data warehouse via Snowflake. To streamline this process, we'll employ Snowpipe, a powerful tool that facilitates the seamless flow of data into Snowflake, enhancing efficiency and real-time availability.
+Now, the next step is loading the data into Snowflake, a data warehouse. Snowpipe, a tool that helps move data into Snowflake quickly, will be used to streamline this process.
 
-Overall, this project embodies a well-orchestrated symphony of technologies, culminating in a dynamic and efficient ETL pipeline.
+Overall, this project combines various technologies to create an efficient process for managing Spotify data.
 ![alt text](https://github.com/battaprikshit/Spotify-ETL-Pipeline-using-Snowflake/blob/main/spotify_screenshots/Architecture_ETL.jpg)
 
 ## Prerequisites
