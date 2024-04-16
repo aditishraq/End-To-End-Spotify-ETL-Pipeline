@@ -7,15 +7,15 @@ Now, the next step is loading the data into Snowflake, a data warehouse. Snowpip
 Overall, this project combines various technologies to create an efficient process for managing Spotify data.
 ![alt text](https://github.com/battaprikshit/Spotify-ETL-Pipeline-using-Snowflake/blob/main/spotify_screenshots/Architecture_ETL.jpg)
 
-## Prerequisites
-Before you begin, ensure you have met the following requirements:
-- You have a Windows/Linux/Mac machine.
-- You have Amazon Web Services Account.
-- You have Snowflake Account.
-- You have Spotify Developer Account
-## Business Requirement
 
-The core business requirement for this project is to assemble a comprehensive and diverse compilation of global songs reflecting a wide range of genres, languages, and cultural influences. This entails establishing a seamless integration with the Spotify API through Python, enabling direct access to an extensive music library. The extracted raw music data is to be efficiently stored in a secure AWS S3 bucket, ensuring scalability and reliability. Additionally, the system should accommodate a potentially high volume of requests to meet the client's ambitious vision.
+  ### Tools & Technologies
+
+- Cloud - [**Amazon Web Service (AWS)**](https://console.aws.amazon.com)
+
+- Data Warehouse - [**Snowflake**](https://www.snowflake.com/en/)
+
+- Language - [**Python**](https://www.python.org)
+
 ## Steps for the ETL Pipeline
 1. Go to Spotify.com and register for a developer account so that you can access the spotify api.
 2. Go to jupyter/collab notebook and install the spotify from pip module of python.
@@ -220,15 +220,4 @@ FILE_FORMAT = (FORMAT_NAME= 'csv_file_format');
 ## Summary
 
 With the successful completion of the final ETL process for Spotify data, we have now seamlessly integrated and stored the refined dataset within Snowflake, a robust and scalable data warehousing solution. This accomplishment opens up a multitude of opportunities for leveraging the data's insights. Data scientists and analysts can now harness this enriched dataset to develop predictive models, gaining invaluable insights into musical trends and user preferences. Additionally, the data can be harnessed through powerful visualization tools like Power BI, empowering stakeholders to create dynamic and interactive dashboards that offer a comprehensive view of the music landscape. This achievement marks a significant milestone, paving the way for a deeper understanding and strategic utilization of the vast musical repository we've meticulously curated.
-## Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. If you have a suggestion that would make this better, please fork the repo and create a pull request. Don't forget to give the project a star! Thanks again!
 
-1. Fork this repository.
-2. Create a branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
-
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). 
-## License
-Distributed under the MIT License. See LICENSE.txt for more information.
