@@ -217,7 +217,3 @@ FILE_FORMAT = (FORMAT_NAME= 'csv_file_format');
 10. Test the pipeline.
 
 
-## Summary
-
-With the successful completion of the final ETL process for Spotify data, we have now seamlessly integrated and stored the refined dataset within Snowflake, a robust and scalable data warehousing solution. This accomplishment opens up a multitude of opportunities for leveraging the data's insights. Data scientists and analysts can now harness this enriched dataset to develop predictive models, gaining invaluable insights into musical trends and user preferences. Additionally, the data can be harnessed through powerful visualization tools like Power BI, empowering stakeholders to create dynamic and interactive dashboards that offer a comprehensive view of the music landscape. This achievement marks a significant milestone, paving the way for a deeper understanding and strategic utilization of the vast musical repository we've meticulously curated.
-
